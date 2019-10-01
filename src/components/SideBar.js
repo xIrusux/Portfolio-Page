@@ -1,6 +1,8 @@
 import React from "react";
-export { SideBar };
+import "./SideBar.css";
 
 const SideBar = () => {
   return <section className="sidebar"></section>;
 };
+
+export { SideBar };
