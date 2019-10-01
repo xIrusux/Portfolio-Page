@@ -1,7 +1,7 @@
 import React from "react";
-import "../css/LandingPage.css";
-import { NavBar } from "../../mutual/jsx/NavBar";
-import { SideBar } from "../../mutual/jsx/SideBar";
+import "./css/LandingPage.css";
+import { NavBar } from "../mutual/navbar/NavBar";
+import { SideBar } from "../mutual/sidebar/SideBar";
 import { MainContentLP } from "./MainContentLP";
 
 const LandingPage = () => {
