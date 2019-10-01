@@ -1,5 +1,5 @@
 import React from "react";
-import "./MainContentLP.css";
+import "../css/MainContentLP.css";
 
 const MainContentLP = () => {
   return <section className="main-content"></section>;
