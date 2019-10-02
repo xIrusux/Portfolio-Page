@@ -7,6 +7,7 @@ const MainContentLP = () => {
       <img
         className="main-content__imageellipse"
         src={require("../../assets/ChristineJapan.png")}
+        alt="picture of Christine Altmann in the streets of tokio"
       />
       <p className="description">
         Hey, My name is Christine Altmann and I am a full-stack web-developer.
@@ -14,7 +15,11 @@ const MainContentLP = () => {
       </p>
       <p className="call-me">You can also call me</p>
       <p className="changemaker">changemaker</p>
-      <img className="arrow--down" src={require("../../assets/arrow.svg")} />
+      <img
+        className="arrow--down"
+        src={require("../../assets/arrow.svg")}
+        alt="dowwards arrow to move to project page"
+      />
     </section>
   );
 };
