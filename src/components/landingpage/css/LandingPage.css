@@ -1,3 +1,20 @@
+body {
+  font-family: "Raleway";
+}
+
 .placeholder {
   background: blue;
+}
+
+.arrow--down {
+  height: 4em;
+  transform: rotate(-90deg);
+}
+
+.main-content {
+  grid-row: 2 / span 3;
+  grid-column: 3 / span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
