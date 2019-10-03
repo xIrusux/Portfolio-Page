@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import "../../landingpage/css/LandingPage.css";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   // on hover change state to class hover and increase margin between items
@@ -15,11 +16,13 @@ const NavBar = () => {
         <i></i>
       </section>
       <section className="contact">
-        <img
-          className="contact-icon"
-          src={require("../../../assets/contact.svg")}
-          alt="contactme"
-        />
+        <Link to={{ pathname: "/contact-me" }}>
+          <img
+            className="contact-icon"
+            src={require("../../../assets/contact.svg")}
+            alt="contactme"
+          />
+        </Link>
       </section>
     </>
   );
