@@ -51,3 +51,9 @@ body {
   padding: 5px 4px;
   right: 42px;
 }
+
+.contact-icon:hover {
+  height: 2.2em;
+  right: 40px;
+  transform: all;
+}
