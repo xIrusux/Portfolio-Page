@@ -7,6 +7,10 @@ body {
 }
 
 .arrow--down {
+  grid-row: 5 / span 1;
+  grid-column: 3 / span 2;
+  align-self: center;
+  justify-self: center;
   height: 4em;
   transform: rotate(-90deg);
 }
