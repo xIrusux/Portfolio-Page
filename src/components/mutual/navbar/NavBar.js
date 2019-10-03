@@ -18,6 +18,7 @@ const NavBar = () => {
         <img
           className="contact-icon"
           src={require("../../../assets/contact.svg")}
+          alt="contactme"
         />
       </section>
     </>
