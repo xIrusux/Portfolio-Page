@@ -18,7 +18,7 @@ const MainContentLP = () => {
         <p className="call-me">You can also call me</p>
         <p className="changemaker">changemaker</p>
       </section>
-      <Link to={{ pathname: "/projects" }}>
+      <Link to={{ pathname: "/projects" }} className="arrow-down-router">
         <img
           className="arrow--down"
           src={require("../../assets/arrow.svg")}
