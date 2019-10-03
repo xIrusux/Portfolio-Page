@@ -42,3 +42,12 @@ body {
   margin: 8px;
   background-color: #7a7a7a;
 }
+
+.contact-icon {
+  height: 2em;
+  position: fixed;
+  top: 90px;
+  cursor: pointer;
+  padding: 5px 4px;
+  right: 42px;
+}
