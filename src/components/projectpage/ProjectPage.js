@@ -3,7 +3,7 @@ import "./css/ProjectPage.css";
 
 const ProjectPage = () => {
   return (
-    <section className="projects">
+    <section className="projectss">
       <h2>Projects</h2>
       <div className="projects__container"></div>
     </section>
