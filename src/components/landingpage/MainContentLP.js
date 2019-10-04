@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/MainContentLP.css";
+import { Link } from "react-router-dom";
 
 const MainContentLP = () => {
   return (
@@ -8,7 +9,7 @@ const MainContentLP = () => {
         <img
           className="main-content__imageellipse"
           src={require("../../assets/ChristineJapan.png")}
-          alt="picture of Christine Altmann in the streets of tokio"
+          alt="Christine Altmann in the streets of tokio"
         />
         <p className="description">
           Hey, My name is Christine Altmann and I am a full-stack web-developer.
@@ -17,11 +18,15 @@ const MainContentLP = () => {
         <p className="call-me">You can also call me</p>
         <p className="changemaker">changemaker</p>
       </section>
-      <img
-        className="arrow--down"
-        src={require("../../assets/arrow.svg")}
-        alt="dowwards arrow to move to project page"
-      />
+      <Link to={{ pathname: "/projects" }} className="arrow-down-router">
+        <img
+          className="arrow--down"
+          src={require("../../assets/arrow.svg")}
+          alt="dowwards arrow to move to project page"
+          Link
+          to={{ pathname: "/projects" }}
+        ></img>
+      </Link>
     </>
   );
 };

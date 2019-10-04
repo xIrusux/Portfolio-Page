@@ -7,11 +7,14 @@ body {
   background: blue;
 }
 
-.arrow--down {
+.arrow-down-router {
   grid-row: 5 / span 1;
   grid-column: 3 / span 2;
   align-self: center;
   justify-self: center;
+}
+
+.arrow--down {
   height: 3em;
   transform: rotate(-90deg);
   cursor: pointer;
