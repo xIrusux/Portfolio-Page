@@ -4,11 +4,14 @@ import { NavBar } from "../mutual/navbar/NavBar";
 import { SideBar } from "../mutual/sidebar/SideBar";
 import { MainContentLP } from "./MainContentLP";
 
-const LandingPage = () => {
+const LandingPage = ({ arrowdown, clickedArrowdown }) => {
   return (
     <section className="landing-page">
       <NavBar />
-      <MainContentLP />
+      <MainContentLP
+        arrowdown={arrowdown}
+        clickedArrowdown={clickedArrowdown}
+      />
       <SideBar />
     </section>
   );
