@@ -1,0 +1,13 @@
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  transition: opacity 0.3s ease-out;
+}
+
+.project-item {
+  position: relative;
+  display: block;
+  padding: 1.2em;
+  width: 50%;
+}
