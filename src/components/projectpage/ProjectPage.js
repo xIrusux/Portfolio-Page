@@ -6,28 +6,44 @@ const ProjectPage = () => {
     <section className="project-page">
       <h2>Projects</h2>
       <hr className="line" />
-      <ul className="project-grid">
-        <li className="project-item">
-          <img src="./logo.png" alt="story"></img>
+      <div className="project-grid">
+        <article className="project-item">
+          <img
+            className="project-image"
+            src={require("../../assets/placeholder-image.png")}
+            alt="story"
+          ></img>
           <h1>Project title</h1>
           <p>category</p>
-        </li>
-        <li className="project-item">
-          <img src="./logo.png" alt="story"></img>
+        </article>
+        <article className="project-item">
+          <img
+            className="project-image"
+            src={require("../../assets/placeholder-image.png")}
+            alt="story"
+          ></img>
           <h1>Project title</h1>
           <p>category</p>
-        </li>
-        <li className="project-item">
-          <img src="./logo.png" alt="story"></img>
+        </article>
+        <article className="project-item">
+          <img
+            className="project-image"
+            src={require("../../assets/placeholder-image.png")}
+            alt="story"
+          ></img>
           <h1>Project title</h1>
           <p>category</p>
-        </li>
-        <li className="project-item">
-          <img src="./logo.png" alt="story"></img>
+        </article>
+        <article className="project-item">
+          <img
+            className="project-image"
+            src={require("../../assets/placeholder-image.png")}
+            alt="story"
+          ></img>
           <h1>Project title</h1>
           <p>category</p>
-        </li>
-      </ul>
+        </article>
+      </div>
       <div className="projects__container"></div>
     </section>
   );
