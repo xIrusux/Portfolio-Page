@@ -79,24 +79,23 @@ a:hover {
 }
 
 #menu {
+  display: flex;
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -250px;
+  width: 1000px;
+  margin: -100px 0 0 -1000px;
   padding: 50px;
-  padding-top: 125px;
-
-  background: #ededed;
+  padding-top: 70px;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
 
   transform-origin: 0% 0%;
-  transform: translate(100%, 0);
+  transform: translate(0, -100%);
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 #menu li {
-  padding: 10px 0;
+  padding: 0 30px 0 30px;
   font-size: 22px;
 }
 
