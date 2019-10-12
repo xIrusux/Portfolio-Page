@@ -32,6 +32,11 @@ const ProjectPage = () => {
             ></img>
             <h1>Project title</h1>
             <p>category</p>
+            <div className="overlay">
+              <div className="text">
+                Project Details: following tech was used
+              </div>
+            </div>
           </article>
           <article className="project-item">
             <img
@@ -41,6 +46,11 @@ const ProjectPage = () => {
             ></img>
             <h1>Project title</h1>
             <p>category</p>
+            <div className="overlay">
+              <div className="text">
+                Project Details: following tech was used
+              </div>
+            </div>
           </article>
           <article className="project-item">
             <img
@@ -50,6 +60,11 @@ const ProjectPage = () => {
             ></img>
             <h1>Project title</h1>
             <p>category</p>
+            <div className="overlay">
+              <div className="text">
+                Project Details: following tech was used
+              </div>
+            </div>
           </article>
         </div>
         <div className="projects__container"></div>
