@@ -22,25 +22,40 @@ const ProjectPage = () => {
           <article className="project-item">
             <img
               className="project-image"
-              src={require("../../assets/placeholder-image.png")}
+              src={require("../../assets/generationchange.png")}
               alt="story"
             ></img>
-            <h1>Generation Change</h1>
+            <h1>
+              Generation Change
+              <br></br>
+              <i>(in progress)</i>
+            </h1>
             <p>
               React | Netlify Lambda | SASS | Cypress | Jest | Airtable | API's
             </p>
             <div className="overlay">
               <div className="text">
-                Web app that connecting educators to local social action
-                projects for young people
+                <p>
+                  Web app connecting educators to local social action projects
+                  for young people
+                </p>
+                <p>
+                  Role: <br></br>Dev Ops<br></br>- exploring and deploying
+                  infrastructure
+                </p>
+                <a href="https://github.com/fac-17/Generation-Change">
+                  go to github repository
+                </a>
+                <a href="https://generation-change.netlify.com/">
+                  go to website
+                </a>
               </div>
-              <p>Role: Dev Ops - exploring and deploying infrastructure</p>
             </div>
           </article>
           <article className="project-item">
             <img
               className="project-image"
-              src={require("../../assets/placeholder-image.png")}
+              src={require("../../assets/plantbaseme.png")}
               alt="story"
             ></img>
             <h1>Plantbase-Me</h1>
@@ -50,9 +65,16 @@ const ProjectPage = () => {
             </p>
             <div className="overlay">
               <div className="text">
-                Crowd sourced review app for plan-based products{" "}
+                <p>Crowd sourced review app for plan-based products</p>
+                <p>
+                  Role:<br></br>QA<br></br>- ensuring code quality and test
+                  coverage
+                </p>
+                <a href="https://github.com/fac-17/Plantbase-Me">
+                  go to github repository
+                </a>
+                <a href="https://plantbase-me.herokuapp.com/">go to website</a>
               </div>
-              <p>Role: QA - ensuring code quality and test coverage</p>
             </div>
           </article>
           <article className="project-item">

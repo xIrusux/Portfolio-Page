@@ -66,15 +66,22 @@
 }
 
 .text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   color: white;
-  font-size: 20px;
+  font-size: 1.2em;
   position: absolute;
-  top: 50%;
+  top: 40%;
+  width: 80%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+}
+
+.text p:nth-child(1) {
+  align-self: flex-end;
 }
 
 .line {
