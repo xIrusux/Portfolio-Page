@@ -17,6 +17,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   z-index: 999;
+  width: 5.5em;
 }
 
 .arrow-up-router {
@@ -29,6 +30,7 @@ body {
   left: 0;
   margin-right: auto;
   margin-left: auto;
+  width: 4em;
 }
 
 .arrow--down {
