@@ -32,15 +32,23 @@ body {
 }
 
 .arrow--down {
-  height: 3em;
   transform: rotate(-90deg);
   cursor: pointer;
+  width: 3em;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .arrow--up {
-  height: 3em;
   transform: rotate(90deg);
   cursor: pointer;
+  width: 3em;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .next-text {
