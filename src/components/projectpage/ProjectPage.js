@@ -11,10 +11,8 @@ const ProjectPage = () => {
           className="arrow--up"
           src={require("../../assets/arrow.svg")}
           alt="upwards arrow to move to project page"
-          Link
-          to={{ pathname: "/projects" }}
         ></img>
-        <p className="next-text">got to Home</p>
+        <p className="next-text">go to Home</p>
       </Link>
       <NavBar />
       <section className="project-page">
@@ -85,10 +83,8 @@ const ProjectPage = () => {
           className="arrow--down"
           src={require("../../assets/arrow.svg")}
           alt="dowwards arrow to move to project page"
-          Link
-          to={{ pathname: "/skills" }}
         ></img>
-        <p className="next-text">got to Skills</p>
+        <p className="next-text">go to Skills</p>
       </Link>
     </>
   );

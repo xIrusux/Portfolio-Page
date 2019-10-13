@@ -23,8 +23,6 @@ const MainContentLP = () => {
           className="arrow--down"
           src={require("../../assets/arrow.svg")}
           alt="dowwards arrow to move to project page"
-          Link
-          to={{ pathname: "/projects" }}
         ></img>
         <p className="next-text">got to Projects</p>
       </Link>

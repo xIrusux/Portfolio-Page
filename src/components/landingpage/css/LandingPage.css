@@ -12,8 +12,11 @@ body {
   flex-direction: column;
   position: fixed;
   bottom: 20px;
-  right: 47vw;
-  z-index: 99999999;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 999;
 }
 
 .arrow-up-router {
@@ -21,7 +24,11 @@ body {
   flex-direction: column;
   position: fixed;
   top: 20px;
-  right: 47vw;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .arrow--down {
