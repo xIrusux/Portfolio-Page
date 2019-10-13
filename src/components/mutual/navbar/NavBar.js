@@ -19,20 +19,20 @@ const NavBar = () => {
           <span></span>
 
           <ul id="menu">
-            <a href="#">
+            <a href="/">
               <li>Home</li>
             </a>
-            <a href="#">
-              <li>About</li>
+            <a href="/skills">
+              <li>Skills</li>
             </a>
-            <a href="#">
-              <li>Info</li>
+            <a href="/projects">
+              <li>Projects</li>
             </a>
-            <a href="#">
-              <li>Contact</li>
-            </a>
-            <a href="https://christinealtmann.com/" target="_blank">
-              <li>Show me more</li>
+            <a
+              href={require("../../../assets/Christine Altmann-CV.pdf")}
+              download="Christine Altmann - Full-Stack Developer - CV"
+            >
+              <li>Download CV</li>
             </a>
           </ul>
         </div>
