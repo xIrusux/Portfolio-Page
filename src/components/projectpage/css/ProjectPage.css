@@ -1,4 +1,9 @@
-.project-page h2 {
+.projects {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.project-page p {
   padding-top: 3em;
   text-align: center;
 }
@@ -50,16 +55,34 @@
   background-color: #008cba;
 }
 
+.more-coming-soon {
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+.tech-stack {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 .text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   color: white;
-  font-size: 20px;
+  font-size: 1.2em;
   position: absolute;
-  top: 50%;
+  top: 40%;
+  width: 80%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+}
+
+.text a:hover {
+  font-weight: bold;
+  color: black;
 }
 
 .line {
