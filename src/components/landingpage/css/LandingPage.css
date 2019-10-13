@@ -13,11 +13,26 @@ body {
   position: fixed;
   bottom: 20px;
   right: 47vw;
+  z-index: 99999999;
+}
+
+.arrow-up-router {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 20px;
+  right: 47vw;
 }
 
 .arrow--down {
   height: 3em;
   transform: rotate(-90deg);
+  cursor: pointer;
+}
+
+.arrow--up {
+  height: 3em;
+  transform: rotate(90deg);
   cursor: pointer;
 }
 

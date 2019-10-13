@@ -6,6 +6,16 @@ import { Link } from "react-router-dom";
 const ProjectPage = () => {
   return (
     <>
+      <Link to={{ pathname: "/" }} className="arrow-up-router">
+        <img
+          className="arrow--up"
+          src={require("../../assets/arrow.svg")}
+          alt="upwards arrow to move to project page"
+          Link
+          to={{ pathname: "/projects" }}
+        ></img>
+        <p className="next-text">got to Home</p>
+      </Link>
       <NavBar />
       <section className="project-page">
         <h2>Projects</h2>
