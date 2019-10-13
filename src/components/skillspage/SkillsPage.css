@@ -5,10 +5,11 @@
 
 .cv-table {
   margin: auto;
+  margin-top: 3.5em;
 }
 
 table {
-  width: 90%;
+  width: 80%;
   border-spacing: 0;
   border: 1px solid grey;
   display: table;

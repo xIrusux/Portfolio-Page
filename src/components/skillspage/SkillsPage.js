@@ -26,14 +26,16 @@ const SkillsPage = ({ arrowdown, clickedArrowdown }) => {
         <tbody>
           <tr>
             <th>Languages</th>
-            <th>Frameworks / Libraries</th>
+            <th>Frontend</th>
+            <th>Backend</th>
             <th>Databases</th>
             <th>Testing</th>
             <th>Design</th>
-            <th>Other tools</th>
+            <th>Tooling</th>
           </tr>
           <tr>
-            <td>Javascript</td>
+            <td>Javascript (ES6/ES7)</td>
+            <td>React</td>
             <td>Node.js</td>
             <td>PostgreSQL</td>
             <td>Tape</td>
@@ -41,32 +43,36 @@ const SkillsPage = ({ arrowdown, clickedArrowdown }) => {
             <td>Git &amp; Github</td>
           </tr>
           <tr>
-            <td>HTML</td>
+            <td>HTML 5</td>
+            <td>Styled Components</td>
             <td>Express.js</td>
-            <td></td>
-            <td>Shot</td>
-            <td>Invision</td>
-            <td>Heroku</td>
+            <td>Airtable</td>
+            <td>Travis CI</td>
+            <td>Zeplin</td>
+            <td>Heroku & Netlify</td>
           </tr>
           <tr>
             <td>CSS</td>
-            <td>React</td>
+            <td>SASS</td>
+            <td>Netlify Lambda</td>
             <td></td>
-            <td>Travis CI</td>
-            <td>Photoshop</td>
+            <td>Cypress</td>
+            <td>Invision</td>
             <td>Agile</td>
           </tr>
           <tr>
-            <td>Java (Processing)</td>
-            <td>Redux</td>
             <td></td>
-            <td>Istanbul</td>
-            <td>Illustrator</td>
+            <td>Handlebars</td>
+            <td></td>
+            <td></td>
+            <td>Jest</td>
+            <td></td>
             <td>Design Thinking</td>
           </tr>
           <tr>
-            <td>C++ (Open&dash;Frameworks)</td>
-            <td>Handlebars</td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td></td>
             <td>Codecov</td>
             <td></td>
@@ -74,7 +80,8 @@ const SkillsPage = ({ arrowdown, clickedArrowdown }) => {
           </tr>
           <tr>
             <td></td>
-            <td>p5.js</td>
+            <td></td>
+            <td></td>
             <td></td>
             <td>Supertest</td>
             <td></td>
