@@ -1,4 +1,9 @@
-.project-page h2 {
+.projects {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.project-page p {
   padding-top: 3em;
   text-align: center;
 }
@@ -48,6 +53,16 @@
   opacity: 0;
   transition: 0.5s ease;
   background-color: #008cba;
+}
+
+.more-coming-soon {
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+.tech-stack {
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .text {

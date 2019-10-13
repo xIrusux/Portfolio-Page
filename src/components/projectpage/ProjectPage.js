@@ -16,7 +16,7 @@ const ProjectPage = () => {
       </Link>
       <NavBar />
       <section className="project-page">
-        <h2>Projects</h2>
+        <h2 className="projects">Projects</h2>
         <hr className="line" />
         <div className="project-grid">
           <article className="project-item">
@@ -25,12 +25,34 @@ const ProjectPage = () => {
               src={require("../../assets/placeholder-image.png")}
               alt="story"
             ></img>
-            <h1>Project title</h1>
-            <p>category</p>
+            <h1>Generation Change</h1>
+            <p>
+              React | Netlify Lambda | SASS | Cypress | Jest | Airtable | API's
+            </p>
             <div className="overlay">
               <div className="text">
-                Project Details: following tech was used
+                Web app that connecting educators to local social action
+                projects for young people
               </div>
+              <p>Role: Dev Ops - exploring and deploying infrastructure</p>
+            </div>
+          </article>
+          <article className="project-item">
+            <img
+              className="project-image"
+              src={require("../../assets/placeholder-image.png")}
+              alt="story"
+            ></img>
+            <h1>Plantbase-Me</h1>
+            <p className="tech-stack">
+              Node | Express | Handlebars | Tape | PostgreSQL | CSS | Supertest
+              | 3D Animations
+            </p>
+            <div className="overlay">
+              <div className="text">
+                Crowd sourced review app for plan-based products{" "}
+              </div>
+              <p>Role: QA - ensuring code quality and test coverage</p>
             </div>
           </article>
           <article className="project-item">
@@ -40,35 +62,7 @@ const ProjectPage = () => {
               alt="story"
             ></img>
             <h1>Project title</h1>
-            <p>category</p>
-            <div className="overlay">
-              <div className="text">
-                Project Details: following tech was used
-              </div>
-            </div>
-          </article>
-          <article className="project-item">
-            <img
-              className="project-image"
-              src={require("../../assets/placeholder-image.png")}
-              alt="story"
-            ></img>
-            <h1>Project title</h1>
-            <p>category</p>
-            <div className="overlay">
-              <div className="text">
-                Project Details: following tech was used
-              </div>
-            </div>
-          </article>
-          <article className="project-item">
-            <img
-              className="project-image"
-              src={require("../../assets/placeholder-image.png")}
-              alt="story"
-            ></img>
-            <h1>Project title</h1>
-            <p>category</p>
+            <p className="tech-stack">category</p>
             <div className="overlay">
               <div className="text">
                 Project Details: following tech was used
@@ -77,6 +71,7 @@ const ProjectPage = () => {
           </article>
         </div>
         <div className="projects__container"></div>
+        <h2 className="more-coming-soon">More coming soon ...</h2>
       </section>
       <Link to={{ pathname: "/skills" }} className="arrow-down-router">
         <img
