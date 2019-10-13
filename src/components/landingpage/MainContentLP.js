@@ -12,11 +12,11 @@ const MainContentLP = () => {
           alt="Christine Altmann in the streets of tokio"
         />
         <p className="description">
-          Hey, My name is Christine Altmann and I am a full-stack web-developer.
-          My passion is to create and to write smart code.
+          Hey,<br></br>My name is Christine Altmann and I am a full-stack
+          web-developer. My passion is to create and to write smart code.
         </p>
-        <p className="call-me">You can also call me</p>
-        <p className="changemaker">changemaker</p>
+        {/* <p className="call-me">You can also call me</p> */}
+        {/* <p className="changemaker">changemaker</p> */}
       </section>
       <Link to={{ pathname: "/projects" }} className="arrow-down-router">
         <img

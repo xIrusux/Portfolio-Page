@@ -7,6 +7,10 @@ body {
   background: blue;
 }
 
+.description {
+  text-align: center;
+}
+
 .arrow-down-router {
   display: flex;
   flex-direction: column;
