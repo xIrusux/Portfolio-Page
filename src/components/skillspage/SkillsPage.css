@@ -1,0 +1,33 @@
+.skills-page h2 {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.cv-table {
+  margin: auto;
+}
+
+table {
+  width: 90%;
+  border-spacing: 0;
+  border: 1px solid grey;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  border-bottom: 1px solid grey;
+}
+
+th:not(:last-child),
+td:not(:last-child) {
+  border-right: 1px solid grey;
+}

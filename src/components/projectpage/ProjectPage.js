@@ -1,10 +1,19 @@
 import React from "react";
 import "./css/ProjectPage.css";
 import { NavBar } from "../mutual/navbar/NavBar";
+import { Link } from "react-router-dom";
 
 const ProjectPage = () => {
   return (
     <>
+      <Link to={{ pathname: "/" }} className="arrow-up-router">
+        <img
+          className="arrow--up"
+          src={require("../../assets/arrow.svg")}
+          alt="upwards arrow to move to project page"
+        ></img>
+        <p className="next-text">go to Home</p>
+      </Link>
       <NavBar />
       <section className="project-page">
         <h2>Projects</h2>
@@ -69,6 +78,14 @@ const ProjectPage = () => {
         </div>
         <div className="projects__container"></div>
       </section>
+      <Link to={{ pathname: "/skills" }} className="arrow-down-router">
+        <img
+          className="arrow--down"
+          src={require("../../assets/arrow.svg")}
+          alt="dowwards arrow to move to project page"
+        ></img>
+        <p className="next-text">go to Skills</p>
+      </Link>
     </>
   );
 };
