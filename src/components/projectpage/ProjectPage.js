@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/ProjectPage.css";
 import { NavBar } from "../mutual/navbar/NavBar";
+import { Link } from "react-router-dom";
 
 const ProjectPage = () => {
   return (
@@ -69,6 +70,16 @@ const ProjectPage = () => {
         </div>
         <div className="projects__container"></div>
       </section>
+      <Link to={{ pathname: "/skills" }} className="arrow-down-router">
+        <img
+          className="arrow--down"
+          src={require("../../assets/arrow.svg")}
+          alt="dowwards arrow to move to project page"
+          Link
+          to={{ pathname: "/skills" }}
+        ></img>
+        <p className="next-text">got to Skills</p>
+      </Link>
     </>
   );
 };

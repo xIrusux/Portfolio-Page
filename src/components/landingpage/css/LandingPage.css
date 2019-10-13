@@ -8,16 +8,22 @@ body {
 }
 
 .arrow-down-router {
-  grid-row: 5 / span 1;
-  grid-column: 3 / span 2;
-  align-self: center;
-  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 20px;
+  right: 47vw;
 }
 
 .arrow--down {
   height: 3em;
   transform: rotate(-90deg);
   cursor: pointer;
+}
+
+.next-text {
+  font-size: 0.6em;
+  margin: 0 auto;
 }
 
 .main-content {

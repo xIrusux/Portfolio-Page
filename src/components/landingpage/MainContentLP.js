@@ -26,6 +26,7 @@ const MainContentLP = () => {
           Link
           to={{ pathname: "/projects" }}
         ></img>
+        <p className="next-text">got to Projects</p>
       </Link>
     </>
   );
