@@ -11,6 +11,14 @@ const ContactPage = () => {
       <SideBar />
       <h2>Contact Me</h2>
       <hr className="line" />
+      <section className="contact-box">
+        <div className="contact-details">
+          <p>github: https://github.com/xIrusux</p>
+          <p>email: christine.altmann@gmx.com</p>
+          <p>phone: +447727161154</p>
+          <p>based in London</p>
+        </div>
+      </section>
       <Link to={{ pathname: "/skills" }} className="arrow-up-router">
         <img
           className="arrow--up"
