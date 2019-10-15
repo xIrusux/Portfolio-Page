@@ -8,28 +8,17 @@
   text-align: center;
 }
 
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  grid-gap: 10px;
+.project {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-items: center;
+  justify-content: space-around;
 }
 
 .project-item {
-  grid-column: 2/5;
-  padding: 1.2em;
   position: relative;
-}
-
-.project-item:nth-child(2) {
-  grid-column: 5/8;
-  padding: 1.2em;
-}
-
-.project-item:nth-child(3) {
-  grid-column: 8/11;
-  padding: 1.2em;
+  width: 30rem;
 }
 
 .project-image {

@@ -18,7 +18,7 @@ const ProjectPage = () => {
       <section className="project-page">
         <h2 className="projects">Projects</h2>
         <hr className="line" />
-        <div className="project-grid">
+        <div className="project">
           <article className="project-item">
             <img
               className="project-image"
@@ -80,15 +80,13 @@ const ProjectPage = () => {
           <article className="project-item">
             <img
               className="project-image"
-              src={require("../../assets/placeholder-image.png")}
+              src={require("../../assets/comingsoon.jpeg")}
               alt="story"
             ></img>
-            <h1>Project title</h1>
-            <p className="tech-stack">category</p>
+            <h1>XX</h1>
+            <p className="tech-stack">xxxx</p>
             <div className="overlay">
-              <div className="text">
-                Project Details: following tech was used
-              </div>
+              <div className="text">xxxx</div>
             </div>
           </article>
         </div>

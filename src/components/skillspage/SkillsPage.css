@@ -1,3 +1,9 @@
+@media only screen and (min-width: 1001px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
 .skills-page h2 {
   padding-top: 3em;
   text-align: center;
@@ -6,6 +12,10 @@
 .cv-table {
   margin: auto;
   margin-top: 3.5em;
+}
+
+.table-responsive {
+  overflow-x: auto;
 }
 
 table {
