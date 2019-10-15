@@ -18,7 +18,7 @@ const ProjectPage = () => {
       <section className="project-page">
         <h2 className="projects">Projects</h2>
         <hr className="line" />
-        <div className="project-grid">
+        <div className="project">
           <article className="project-item">
             <img
               className="project-image"
