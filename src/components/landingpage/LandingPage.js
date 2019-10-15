@@ -6,11 +6,13 @@ import { MainContentLP } from "./MainContentLP";
 
 const LandingPage = () => {
   return (
-    <section className="landing-page">
+    <>
       <NavBar />
-      <MainContentLP />
+      <section className="landing-page">
+        <MainContentLP />
+      </section>
       <SideBar />
-    </section>
+    </>
   );
 };
 

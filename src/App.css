@@ -4,14 +4,9 @@
 
 .landing-page {
   position: absolute;
-  display: grid;
-  grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
-  grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr;
-}
-
-.project-page {
-  /* position: absolute;
-  display: grid;
-  grid-template-rows: 20vh 20vh 20vh 20vh 20vh;
-  grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

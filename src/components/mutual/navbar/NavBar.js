@@ -4,10 +4,6 @@ import "../../landingpage/css/LandingPage.css";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  // on hover change state to class hover and increase margin between items
-
-  // add 2 additional states for transition into X
-
   return (
     <>
       <nav role="navigation">
@@ -29,7 +25,7 @@ const NavBar = () => {
               <li>Projects</li>
             </a>
             <a
-              href={require("../../../assets/Christine Altmann-CV.pdf")}
+              href={require("../../../assets/Christine Altmann-CV pdf")}
               download="Christine Altmann - Full-Stack Developer - CV"
             >
               <li>Download CV</li>
